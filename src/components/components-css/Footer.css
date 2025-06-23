@@ -4,10 +4,6 @@ li{
     list-style: none;
     padding: 4%;
 }
-.links-li ul{
-    display: flex;
-    justify-content: space-around;
-}
 a{
     text-decoration: none;
     color:#EEEFE0;
@@ -19,6 +15,21 @@ a{
     background-color: #819A91;
     
 }
-.my-icon{
-    color: #819A91;
+.my-icon-footer{
+    color: #000000;
+}
+
+@media only screen and (max-width: 600px){
+    .my-icon-footer{
+        color: #EEEFE0;
+        width: 10%;
+        margin-left: 50%;
+    }
+    #footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+
+    }
 }

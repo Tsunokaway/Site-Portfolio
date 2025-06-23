@@ -1,8 +1,8 @@
 .navbar{
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
     display: flex;
-    padding: 2%;
+    flex-direction: row;
     position: fixed;
     background-color: #EEEFE0;
     width: 100%;
@@ -17,7 +17,7 @@
 .navbar a::after{
     content: "";
     width: 0%;
-    height: 5px;
+    height: 2px;
     background-color: #819A91;
     position: absolute;
     bottom:0;
@@ -33,7 +33,7 @@
 .links-li{
     display: flex;
     justify-content: space-between;
-    gap: 20%;
+    gap: 10%;
     
 }
 li{
@@ -45,3 +45,19 @@ li{
     width:3%;
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar{
+        align-items: center;
+        font-size: x-small;
+        background-color:#EEEFE0;
+        
+    }
+    .links-li{
+        font-size:x-small;
+        gap: 2%
+    }
+
+    .my-icon{
+        width:10%;
+    }
+}
