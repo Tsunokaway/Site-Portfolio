@@ -1,0 +1,24 @@
+
+li{
+    text-decoration: none;
+    list-style: none;
+    padding: 4%;
+}
+.links-li ul{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color:#EEEFE0;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: #819A91;
+    
+}
+.my-icon{
+    color: #819A91;
+}

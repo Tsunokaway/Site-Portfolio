@@ -1,0 +1,19 @@
+#about{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    gap:2%;
+}
+
+.about-content ul{
+    display: flex;
+    list-style: circle;
+
+}
+ 
+.about-li{
+    background-color: #819A91;
+    color:#EEEFE0;
+    padding: 2%;
+}

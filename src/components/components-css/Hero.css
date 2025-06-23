@@ -1,0 +1,14 @@
+#hero{
+    display: flex;
+    background-color: #EEEFE0;
+    color: #819A91;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
+    gap:5%;
+
+}
+
+img{
+    width: 50vh;
+}
